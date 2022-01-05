@@ -1,0 +1,120 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: max-content;
+  background-color: #002740;
+  text-align: center;
+  color: #fff;
+  padding: 3rem 0 3.5rem;
+  /* justify-content: center; */
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer__top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footer__top__title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.footer__top__content {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer__top__newAlbum {
+  width: 25%;
+}
+
+.footer__top__newAlbum .footer__top__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+}
+
+.footer__top img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  position: relative;
+}
+
+.footer__top__content li {
+  list-style: circle;
+  text-align: start;
+  line-height: 1.5;
+}
+
+.footer__top__comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+.footer__top-title {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+.footer__top__twitter .footer__top-title i {
+  font-size: 2.5rem;
+  /* padding-right: 10px; */
+}
+.footer__top-title span {
+  flex-wrap: wrap;
+}
+.footer__top__twitter p{
+  color: rgb(172, 168, 168);
+  font-size: 15px;
+}
+
+.footer__top__contact {
+  width: 25%;
+}
+.footer__top__contact .footer__top-title i {
+  padding-right: 10px;
+}
+.footer__top__contact .footer__top__content {
+  text-align: start;
+  padding-bottom: 10px;
+}
+
+.footer__logo {
+  font-size: 3rem;
+  font-family: "Pacifico";
+  cursor: pointer;
+}
+
+.footer__social i {
+  margin: 30px 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: .5s ease;
+}
+.footer__social i:hover {
+  transform: scale(1.5);
+}
+
+.footer__license {
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(203, 100%, 7%);
+  width: 100%;
+  font-size: 12px;
+}

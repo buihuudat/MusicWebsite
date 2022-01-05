@@ -1,0 +1,109 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.login__wrap {
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.login__form h1 {
+  color: #fff;
+  padding-bottom: 30px;
+  font-family: "Rubik";
+}
+
+.login__form__group {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.login__form__group i {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.login__form__input {
+  width: 200px;
+  height: 40px;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 1px solid white;
+  background: inherit;
+  color: #fff;
+}
+
+.form__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.register__button,
+.login__button {
+  width: 120px;
+  height: 30px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 0;
+}
+
+.register__button:hover {
+  background-color: #00ffc8;
+}
+
+.login__button:hover {
+  background-color: #007A97;
+}
+
+.login__with {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+.login__with i:hover{
+  color: rgb(52, 239, 252)
+}
+.login__with i {
+  padding-top: 30px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.login__form span {
+  color: #fff;
+  font-size: 14px;
+}
+
+.login__form span a {
+  color: rgb(52, 239, 252);
+}
+
+

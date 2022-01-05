@@ -1,0 +1,121 @@
+.contact {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.contact iframe {
+  position: absolute;
+  margin-top: -5rem;
+  width: calc(100% + 12rem);
+  height: calc(100vh + 12rem);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.contact__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.contact__information__title {
+  font-size: 3.5rem;
+  color: #fff;
+  font-family: "Pacifico";
+}
+
+.contact__socials {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 3rem;
+}
+.contact__socials a {
+  color: #fff;
+}
+.contact__socials i {
+  font-size: 2.5rem;
+  transition: .5s ease;
+}
+.contact__socials i:hover {
+  transform: scale(1.5);
+}
+
+.contact__socials a:nth-child(1):hover {
+  color: #0047BE;
+}
+.contact__socials a:nth-child(2):hover {
+  color: #DC241F;
+}
+.contact__socials a:nth-child(3):hover {
+  color: #DE6100;
+}
+.contact__socials a:nth-child(4):hover {
+  color: #5BDD45;
+}
+.contact__socials a:nth-child(5):hover {
+  color: #00129D;
+}
+
+.contact__form{
+  display: flex;
+  justify-content: center;
+}
+.contact__form form {
+  background-color: rgba(0, 39, 64, 0.5);
+  padding: 2rem;
+  width: max-content;
+  border-radius: 10px;
+  color: #fff;
+  text-align: start;
+  backdrop-filter: blur(3px);
+}
+
+.form__group {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 10px;
+  align-items: center;
+}
+.form__group label {
+  font-size: 1.2rem;
+}
+
+.form__input {
+  width: 300px;
+  min-height: 50px;
+  border: 0;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: rgba(0, 39, 64, .8);
+}
+
+.contact__form__button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 20px;
+  width: 120px;
+  height: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff ;
+  background-color: rgba(0, 39, 64, .8);
+}
