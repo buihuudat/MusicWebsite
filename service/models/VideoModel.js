@@ -2,7 +2,9 @@ import mongoose from "mongoose";
 import slug from "mongoose-slug-generator";
 import MongooseDelete from "mongoose-delete";
 
-const schema = new mongoose.Schema({
+const Schema = mongoose.Schema;
+const schema = new Schema({
+  user: {type: Schema.Types.ObjectId, ref: 'users'},
   name: {type: String, required: true},
   description: {type: String},
   image: {type: String},

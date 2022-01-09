@@ -11,9 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "argon2": "^0.28.3",
     "body-parser": "^1.19.1",
     "cors": "^2.8.5",
     "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.1.5",
     "mongoose-delete": "^0.5.4",
     "mongoose-slug-generator": "^1.0.4",
